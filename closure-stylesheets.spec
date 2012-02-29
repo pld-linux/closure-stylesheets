@@ -3,13 +3,14 @@
 %include	/usr/lib/rpm/macros.java
 Summary:	Closure Stylesheets
 Name:		closure-stylesheets
-Version:	1
-Release:	0.1
+Version:	20111230
+Release:	1
 License:	Apache v2.0
 Group:		Applications/WWW
-Source0:	https://closure-stylesheets.googlecode.com/files/%{name}.jar
-# Source0-md5:	4c76e8116f73fe288011bc36c54da69b
+Source0:	https://closure-stylesheets.googlecode.com/files/%{name}-%{version}.jar
+# Source0-md5:	eb82b5672843df21ad6fae6eb1547fa1
 Source1:	%{name}.sh
+Source2:	get-source.sh
 URL:		https://code.google.com/p/closure-stylesheets/
 BuildRequires:	rpm-javaprov
 BuildRequires:	rpmbuild(macros) >= 1.300
