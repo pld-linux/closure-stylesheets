@@ -1,6 +1,5 @@
 # TODO
 # - build from source: https://code.google.com/p/closure-stylesheets/wiki/BuildingFromSource
-%include	/usr/lib/rpm/macros.java
 Summary:	Closure Stylesheets
 Name:		closure-stylesheets
 Version:	20111230
